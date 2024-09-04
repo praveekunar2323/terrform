@@ -1,7 +1,6 @@
 output "instance_ids" {
     description = "instance d"
     value = aws_instance.example[*].id
-
 }
 
 output "instance_public_ips" {
@@ -12,5 +11,4 @@ output "instance_public_ips" {
 output "instance_private_ips" {
     description = "value"
     value = aws_instance.example[*].private_ip
-
 }
