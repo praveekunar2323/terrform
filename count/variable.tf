@@ -1,6 +1,6 @@
 variable "c" {
     description = "value"
-    type = string
+  type = string
 }
 variable "ami" {
     description = "0"
@@ -8,24 +8,16 @@ variable "ami" {
 }
 variable "instance_type" {
     type = string
-
 }
-
 variable "key_name" {
     type = string
-
 }
-
 variable "security_groups" {
     type = list(string)
 }
-
 variable "tags" {
     type = map(string)
-
 }
-
 variable "name" {
     type = string
-
 }
